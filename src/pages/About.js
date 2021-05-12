@@ -1,9 +1,14 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 export const About = () => {
     return (
-        <Fragment>
-            <h1>About page</h1>
-        </Fragment>
+        <div className="jumbotron">
+            <div className="container">
+                <h1 className="display-4">The Best React App</h1>
+                <p className="lead">
+                    Version <strong>1.0.42</strong>
+                </p>
+            </div>
+        </div>
     )
 }
